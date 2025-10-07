@@ -1,8 +1,10 @@
+import { Header } from "../../components/header";
+
 export function Admin() {
 
     return (
-        <div>
-            <h1>admin</h1>
+        <div className="flex items-center flex-col min-h-screen pb-7 px-2">
+            <Header />
         </div>
     )
 }
