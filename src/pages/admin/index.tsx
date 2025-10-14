@@ -5,7 +5,7 @@ import { FiTrash } from "react-icons/fi";
 import { db } from '../../services/firebaseConnection';
 import { addDoc, collection, onSnapshot, query, orderBy, deleteDoc, doc } from "firebase/firestore";
 
-interface LinkProps {
+export interface LinkProps {
     id: string;
     name: string;
     url: string;
