@@ -2,7 +2,7 @@ import { useEffect, useState, type FormEvent } from "react";
 import { Header } from "../../components/header";
 import { Input } from "../../components/Input";
 import { db } from "../../services/firebaseConnection";
-import { setDoc, addDoc, getDoc, doc } from "firebase/firestore";
+import { setDoc, getDoc, doc } from "firebase/firestore";
 
 export function Networks() {
 
